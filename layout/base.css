@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "open_sans", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #17191C;
+    color: #FFFFFF;
+    line-height: 1.42;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}

@@ -1,0 +1,58 @@
+.offers {
+    margin-top: 234px;
+}
+
+.offers__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers__item {
+    display: flex;
+    flex-direction: column;
+    min-height: 476px;
+    width: calc(100% / 3 - 1.75%);
+    border-radius: 5px;
+    background-color: #FFF;
+    color: #666666;
+    padding: 40px 32px 53px 22px;
+}
+
+.offers__item:hover {
+    border: 5px solid #CCCCCC;
+    padding: 35px 27px 48px 17px;
+}
+
+.offers__image {
+    margin-left: 7px;
+    max-width: 76px;
+    max-height: 76px;
+}
+
+.offers__item-title {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #000000;
+}
+
+.offers__job {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-top: 14px;
+}
+
+.offers__item-people {
+    margin-right: 20%;
+}
+
+b {
+    font-weight: bold;
+    color: #000000;
+}
+
+.offers__item-description {
+    margin-top: 25px;
+    font-size: 14px;
+}

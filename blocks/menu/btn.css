@@ -1,0 +1,64 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    max-width: 195px;
+    max-height: 55px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 35px;
+    border: 2px solid #FF5500;
+    transition: .4s;
+    background: transparent;
+}
+
+.btn:hover {
+    border: 2px;
+    transition: .4s;
+    border: 2px solid #FF5500;
+}
+
+.btn__title {
+    margin: 42px auto;
+    color: #FFF;
+}
+
+.btn__title:hover {
+    background: #FF5500;
+    transition: .4s;
+}
+
+.btn__offers {
+    margin-top: auto;
+    color: #FF5500;
+}
+
+.btn__offers:hover {
+    color: #FFF;
+    background: #FF5500;
+    transition: .4s;
+}
+
+.btn__about {
+    width: 168px;
+    color: #FF5500;
+}
+
+.btn__about:hover {
+    color: #FFF;
+    background: #FF5500;
+    transition: .4s;
+}
+
+.services-btn {
+    color: #FF5500;
+}
+
+.services-btn:hover {
+    color: #FFF;
+    background: #FF5500;
+    transition: .4s;
+}

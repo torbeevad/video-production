@@ -1,0 +1,24 @@
+.main-page-wrapper {
+    background: url('../../img/backgrounds/hero.png') center top no-repeat, url('../../img/backgrounds/bottom-pic.png') center bottom 306px no-repeat;
+}
+
+.text {
+    padding-top: 157px;
+}
+
+.text__title-one {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text__title-two {
+    margin-top: 19px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}

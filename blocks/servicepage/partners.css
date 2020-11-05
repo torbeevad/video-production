@@ -1,0 +1,37 @@
+.section-grey-inner {
+    background: #F4F5F5;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 87px 0 50px;
+}
+
+.partners__title {
+    font-weight: bold;
+    font-size: 48px;
+    color: #1A1B1E;
+    margin-bottom: 74px;
+}
+
+.partner__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.partner__item {
+    display: flex;
+    width: 25%;
+    height: 75px;
+    margin-bottom: 54px;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100);
+}
+
+.partner__item:hover {
+    filter: grayscale(0);
+}

@@ -1,0 +1,89 @@
+.paginator__display-rewiew-page,
+.rewiews,
+.rewiews__name-link {
+    color: #000;
+}
+
+.rewiews {
+    column-count: 2;
+}
+
+.rewiews__item {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 50px 30px;
+    background: #F4F5F5;
+    border-radius: 5px;
+    margin-bottom: 17px;
+}
+
+.rewiews__desc {
+    display: flex;
+}
+
+.rewiews-photo {
+    margin-right: 22px;
+    margin-bottom: 31px;
+}
+
+.rewiews__user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    padding-bottom: 22px;
+}
+
+.rewiews__name {
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.rewiews__name-link:hover {
+    color: #2E77A4;
+    text-decoration: underline;
+}
+
+.rewiews__name-link:after {
+    content: url('/img/icons/vk-colored.png');
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.tag {
+    background: #F2D4C9;
+    display: flex;
+    justify-content: center;
+    padding: 9px 14px;
+    font-size: 13px;
+    color: #303030;
+    border-radius: 35px;
+}
+
+.rewiews__account-title {
+    font-weight: bold;
+    padding-right: 41px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.rewiews__account-text {
+    display: flex;
+    flex: 1;
+    font-size: 16px;
+    line-height: 24px;
+    color: #818181;
+}
+
+.rewiews__account-date {
+    margin-top: 25px;
+}
+
+.paginator-rewiew-page {
+    margin-top: 56px;
+}

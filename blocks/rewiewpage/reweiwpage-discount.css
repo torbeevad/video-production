@@ -1,0 +1,25 @@
+.section-discount {
+    background: #373737 url('../../img/backgrounds/party.png') right 19% bottom no-repeat;
+}
+
+.container-discount {
+    min-height: 364px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.discount {
+    text-align: left;
+}
+
+.discount__item {
+    width: 48%;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.discount__item-colored {
+    color: #FF5500;
+}

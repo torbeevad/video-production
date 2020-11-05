@@ -1,0 +1,27 @@
+.section-page-topline {
+    background: url('../../img/backgrounds/top-line.png') center center no-repeat;
+}
+
+.container-page-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    min-height: 416px;
+    padding-bottom: 29px;
+}
+
+.services__title {
+    font-size: 36px;
+}
+
+.services__desc {
+    font-size: 16px;
+}
+
+.page-main-title {
+    font-weight: 800;
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

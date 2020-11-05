@@ -1,0 +1,117 @@
+.footer-line {
+    margin-top: 55px;
+    height: 1px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 136px;
+}
+
+.footer__col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 52%;
+}
+
+.footer__col-right-pos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 47%;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    align-items: center;
+}
+
+.social__item {
+    position: relative;
+}
+
+.social__link {
+    display: flex;
+    width: 36px;
+    height: 36px;
+}
+
+.social__link:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+}
+
+.social__link:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.social__item-icon-teleg .social__link:before {
+    background: url('../../img/icons/social-sprite.png') -122px -10px;
+}
+
+.social__item-icon-teleg .social__link:after {
+    background: url('../../img/icons/social-sprite.png') -122px -66px;
+}
+
+.social__item-icon-vk .social__link:before {
+    background: url('../../img/icons/social-sprite.png') -10px -122px;
+}
+
+.social__item-icon-vk .social__link:after {
+    background: url('../../img/icons/social-sprite.png') -66px -122px;
+}
+
+.social__item-icon-fb .social__link:before {
+    background: url('../../img/icons/social-sprite.png') -10px -10px;
+}
+
+.social__item-icon-fb .social__link:after {
+    background: url('../../img/icons/social-sprite.png') -66px -10px;
+}
+
+.social__item-icon-inst .social__link:before {
+    background: url('../../img/icons/social-sprite.png') -10px -66px;
+}
+
+.social__item-icon-inst .social__link:after {
+    background: url('../../img/icons/social-sprite.png') -66px -66px;
+}
+
+.social__link:hover:after {
+    opacity: 1;
+    transition: .5s;
+}
+
+.bot-contacts {
+    margin-left: 71px;
+}
+
+.contacts__cost {
+    font-style: normal;
+    font-size: 11px;
+    color: #9A9A9A;
+    text-align: right;
+}

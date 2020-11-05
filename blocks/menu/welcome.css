@@ -1,0 +1,49 @@
+.wrapper-welcome-page {
+    background: url('../../img/backgrounds/welcome.png') center center no-repeat;
+}
+
+.section-welcome-page {
+    padding: 158px 0;
+}
+
+.container-welcome-page {
+    padding: 182px 0;
+    background: url('../../img/pictures/welcomepic.png') no-repeat;
+}
+
+.welcome-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: welcome-animation 1s cubic-bezier(.17,.67,.53,1.45);
+    transform-origin: center bottom;
+}
+
+.biglogo {
+    margin-top: 38px;
+    margin-bottom: 33px;
+}
+
+.welcome-page-btn {
+    width: 167px;
+    background: #FF5500;
+    color: #FFF;
+}
+ 
+@keyframes welcome-animation {
+    from {
+        transform: scale(0) rotate(45deg);
+    }
+
+    70% {
+        transform: scale(1) rotate(-7deg);
+    }
+
+    85% {
+        transform: scale(1) rotate(5deg);
+    }
+
+    to {
+        transform: scale(1) rotate(0deg);
+    }
+} 
