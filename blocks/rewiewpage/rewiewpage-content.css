@@ -49,7 +49,7 @@
 }
 
 .rewiews__name-link:after {
-    content: url('/img/icons/vk-colored.png');
+    content: url('../../img/icons/vk-colored.png');
     width: 30px;
     height: 30px;
     margin-left: 10px;
